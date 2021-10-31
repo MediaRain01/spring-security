@@ -16,7 +16,7 @@ addons:
       version: 1.0
       description: Spring Boot Project
 
-    # Where email notification of build analysis results will be sent
+    # Where email notification of build analysis results will be sent-school account
     notification_email: h.hess1788@o365.ncu.edu
 
     # Commands to prepare for build_command
