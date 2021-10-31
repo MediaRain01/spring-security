@@ -31,3 +31,6 @@ addons:
     # Take care in resource usage, and consider the build frequency allowances per
     #   https://scan.coverity.com/faq#frequency
     branch_pattern: coverity_scan
+    
+    gem install --user travis
+    travis encrypt COVERITY_SCAN_TOKEN=4UjiiV6qa2ykyfAcYtYppg -r MediaRain01/spring-security
